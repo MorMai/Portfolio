@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:wght@100&family=Sarabun:wght@200;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/d611e6a8e8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container" style="filter: opacity(100%);">
+            <nav>
+                <div class="logo">
+                    <p class="port" style="font-family: 'Libre Baskerville', serif;">Portfolio</p>
+                    <p class="subtitle" style="font-family: 'Sarabun', sans-serif;">of Natchanon Srisiri</p>
+                </div>                
+                <ul>
+                    <li><a href="#header" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About me</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <h1>" When life gives you <span>lemons</span>, make <span>lemonade</span> "</h1>
+            </div>
+        </div>
+    </div>
+<!-- About -->
+    <div id="about">
+        <div class="container2">
+            <div class="About-col1">
+                <div class="image-section">
+                    <div style="padding-top: 25px;"><p></p></div>
+                    <div class="image-container">
+                        <img id="image1" src="image//76000.jpg">
+                        <img id="image2" src="image//75080.jpg" style="display: none;">
+                        <img id="image3" src="image//7700.jpg" style="display: none;">
+                    </div>
+                    <div class="image-tabs">
+                        <div class="image-tab active" onclick="showImage(1)"></div>
+                        <div class="image-tab" onclick="showImage(2)"></div>
+                        <div class="image-tab" onclick="showImage(3)"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="About-col2">
+                <div class="info-section">
+                    <h2>About Me<span><i class="fa-solid fa-pen"></i></span></h2>
+                    <p>My name is Natchanon Srisiri from Thailand, I currently studying in <span>KMUTT university</span> in Faculty of Engineering Computer Engineering, this Portfolio will contains all of my project during 2021-2023 as an Bachelor's degree student.</p>
+                    <div class="linfo">
+                        <p><span <i class="fa-solid fa-circle-user fa-beat"></i></span> Mormai</p>
+                        <p><span <i class="fa-solid fa-person fa-beat"></i></span> Male</p>
+                        <p><span <i class="fa-solid fa-calendar-days fa-beat"></i></span> 18 yrs</p>
+                        <p><span <i class="fa-solid fa-thumbs-up fa-beat"></i></i></span> 3D models, Digital art, Game design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Education -->
+    <div id="education">
+        <h2>Education<span><i class="fa-solid fa-school"></i></span></h2>
+        <div class="container3">
+            <div class="Timeline-col1">
+                <div class="timeline-section">
+                    <div class="timeline-event">
+                        <div class="event-wrapper">
+                            <div class="event-date">1</div>
+                            <div class="event-description">
+                                <h3>Graduated Elementary school</h3>
+                                <p>Received my Elementary diploma from Sakulsuksa school (2016)</p>
+                                <div style="padding-top: 10px;"><p></p></div>
+                                <div class="image-container-2">
+                                    <img src="image//SAKUL.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-event">
+                        <div class="event-wrapper">
+                            <div class="event-date">2</div>
+                            <div class="event-description">
+                                <h3>Graduated junior high-school</h3>
+                                <p>Received my Junior high-school diploma from Rajsima wittayalai school (2019)</p>
+                                <div style="padding-top: 10px;"><p></p></div>
+                                <div class="image-container-2">
+                                    <img src="image//RS.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Timeline-col2">
+                <div class="timeline-section">
+                    <div class="timeline-event">
+                        <div class="event-wrapper">
+                            <div class="event-date">3</div>
+                            <div class="event-description">
+                                <h3>Graduated high-school</h3>
+                                <p>Received my High-school diploma from Triamudomsuksa nomklao school (2022)</p>
+                                <div style="padding-top: 10px;"><p></p></div>
+                                <div class="image-container-2">
+                                    <img src="image//TNS.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-event">
+                        <div class="event-wrapper">
+                            <div class="event-date">4</div>
+                            <div class="event-description">
+                                <h3>Currently studying in KMUTT</h3>
+                                <p>Started a Bachelor's degree program in Computer Engineering. (2023)</p>
+                                <div style="padding-top: 10px;"><p></p></div>
+                                <div class="image-container-2">
+                                    <img src="image//KMUTT.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Skills -->
+<div id="skills">
+    <div class="container4">
+        <div class="Skills-col1">
+            <div class="image-section-3">
+                <div style="padding-top: 25px;"><p></p></div>
+                <div class="image-container-3">
+                    <img id="image4" src="image//IMG_6890.jpg">
+                    <img id="image5" src="image//MALI.gif" style="display: none;">
+                    <img id="image6" src="image//AINGO.png" style="display: none;">
+                    <img id="image7" src="image//3D.png" style="display: none;">
+                </div>
+                <div class="image-tabs">
+                    <div class="image-tab active" onclick="showImage(4)"></div>
+                    <div class="image-tab" onclick="showImage(5)"></div>
+                    <div class="image-tab" onclick="showImage(6)"></div>
+                    <div class="image-tab" onclick="showImage(7)"></div>
+                </div>
+            </div>
+        </div>
+        <div class="Skills-col2">
+            <div class="info-section-3">
+                <h2>Skills<span><i class="fa-solid fa-trophy fa-beat"></i></span></h2>
+                <h3>Game design</h3>
+                <p>My most proud project is Heart of the Void, which I worked on as a game designer for many years and won the runner-up prize in a national competition. The game features a side-scrolling gameplay mechanic with a multiverse concept, and I am responsible for the game graphics.</p>
+            </div>
+            <button id="nextButton" onclick="showNextImage()">Next<span><i class="fa-solid fa-arrow-right"></i></span></button>
+        </div>
+    </div>
+</div>
+    <div id="contact">
+        <h1>CONTACT</h1>
+    
+        <p>Instagram: <a href="https://www.instagram.com/mxxm.ai/">@mxxm.ai</a></p>
+
+        <p>Discord: <a href="discordapp.com/users/886969868988072048">realmormai</a></p>
+
+        <p>Email: <a href="unknowkrk529@gmail.com">unknowkrk529@gmail.com</a></p>
+
+        <p>Telephone: <a href="tel:+66918297012"> 091-829-7012</a></p>
+    </div>
+    <button id="scrollToTopButton" class="nav-link"><i class="fa-solid fa-arrow-up"></i></button>
+</body>
+</html>
